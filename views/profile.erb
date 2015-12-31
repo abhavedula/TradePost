@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <title>Profile</title>
+  </head>
+  <body>
+<ul><div class="navbar">
+  <li><a href="home">Home</a></li>
+  <li><a href="profile">Profile</a></li>
+  <li><a href="logout">Log out</a></li>
+  </div>
+</ul>
+    <br><br><br>
+    <center><div class="info"><br>Name: <%= @user.name%><br><br>
+    Age: <%= @user.age%><br><br>
+    Gender: <%= @user.gender%><br><br>
+    Email: <%= @user.email%><br><br></div>
+    
+    <br><br>
+     <form action="/profile" method="POST">
+     <input type="text" name="name" placeholder="Name" class="form-control"><br><br>
+     <input type="text" name="description" placeholder="Description" class="form-control"><br><br>
+     <input type="text" name="image" placeholder="Image" class="form-control"><br><br>
+       
+     <input type="Submit" value="Submit" class="btn btn-primary">
+      </form>
+    
+    </center>
+  </body>
+</html>

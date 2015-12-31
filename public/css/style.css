@@ -1,0 +1,89 @@
+h1 {
+  color: rgb(80, 50, 25);
+  font-size: 50px
+}
+
+.title {
+  color: white;
+  font-family: "Georgia";
+  font-size: 100px;
+  font-style: italic;
+  text-align: center;
+  padding: 0;
+  height: 110px;
+  position: relative;
+  left: 0;
+  outline: none;
+  border: 10px solid #cdcdcd;
+  border-color: rgba(80, 50, 25, 0.6);
+  background-color: rgba(80, 50, 25, 0.6);
+}
+
+body {
+  background-image: url("pic.jpg");
+  background-size: 610px 350px;
+}
+
+p {
+  color: rgb(80, 50, 25);
+  font-family: "Georgia";
+  font-size: 30px;
+  font-style: bold;
+  text-align: center;
+}
+
+   
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 1100px;
+    background-color: rgb(70, 50, 25);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(125, 210, 232);
+}
+
+.info {
+  color: white;
+  font-family: "Georgia";
+  font-size: 20px;
+  text-align: center;
+  padding: 0;
+  height: 200px;
+  width: 350px;
+  outline: none;  
+  background-color: rgba(80, 50, 25, 0.6);
+}
+
+.items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 1100px;
+  background-color: rgba(80, 50, 25, 0.6);
+
+}
+
+.item {
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
